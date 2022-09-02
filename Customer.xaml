@@ -1,0 +1,30 @@
+﻿<Window x:Class="KumparesFinal.Customer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KumparesFinal"
+        mc:Ignorable="d"
+        Title="Customer" Height="120" Width="250" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+    <Window.Background>
+        <ImageBrush ImageSource="Photos/background.png"/>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Proceed" x:Name="btnProceed" HorizontalAlignment="Left" Margin="87,84,0,0" VerticalAlignment="Top" Width="75" Foreground="White" Height="26" Click="BtnProceed_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+            </Button.Background>
+        </Button>
+        <TextBox HorizontalAlignment="Left" x:Name="txtCustomerName"  HorizontalContentAlignment="Center" Margin="34,54,0,0" TextWrapping="Wrap" Text="Enter Customer Name" VerticalAlignment="Top" Width="180" Height="25" GotFocus="TxtCustomerName_GotFocus"/>
+
+        <Grid HorizontalAlignment="Left" Height="23" Margin="0,23,-0.4,0" VerticalAlignment="Top" Width="250" Grid.ColumnSpan="2" Background="#FF232323">
+            <RadioButton x:Name="rbnDineIn" Content="DINE IN" HorizontalAlignment="Left" Margin="57,3,0,0" VerticalAlignment="Top" Foreground="White" Checked="RbnDineIn_Checked" Unchecked="RbnDineIn_Unchecked"/>
+            <RadioButton x:Name="rbntakeOut" Content="TAKE OUT" HorizontalAlignment="Left" Margin="124,3,0,0" VerticalAlignment="Top" Foreground="White" Checked="RbntakeOut_Checked" Unchecked="RbntakeOut_Unchecked"/>
+        </Grid>
+
+    </Grid>
+</Window>

@@ -1,0 +1,180 @@
+﻿<Window x:Class="KumparesFinal.CashierInterface"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KumparesFinal"
+        mc:Ignorable="d"
+        Title="CashierInterface" Height="720" Width="1280" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Window.Background>
+        <ImageBrush ImageSource="Photos/background.png"/>
+    </Window.Background>
+    <Grid>
+        <Grid.Effect>
+            <DropShadowEffect BlurRadius="80" ShadowDepth="0.5" Color="#FFE2452D"/>
+        </Grid.Effect>
+        <Grid x:Name="GridBackground" Background="#55313131" Opacity="0">
+
+
+        </Grid>
+        <Button x:Name="btnBarbeeQ" Content="BarbeeQ" FontWeight="Bold" HorizontalAlignment="Left" Margin="143,14,0,0" VerticalAlignment="Top" Width="60" Foreground="White" Height="41" FontFamily="Roboto Condensed" Click="BtnBarbeeQ_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnGotoMe" Content="Gotome" FontWeight="Bold" HorizontalAlignment="Left" Margin="207,14,0,0" VerticalAlignment="Top" Width="62" Foreground="White" Height="41" FontFamily="Roboto Condensed" Click="BtnGotoMe_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnTapsi" Content="Tapsi" FontWeight="Bold" HorizontalAlignment="Left" Margin="273,14,0,0" VerticalAlignment="Top" Width="61" Foreground="White" Height="41" FontFamily="Roboto Condensed" Click="BtnTapsi_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnPares" Content="Pares" FontWeight="Bold" HorizontalAlignment="Left" Margin="338,14,0,0" VerticalAlignment="Top" Width="62" Foreground="White" Height="41" FontFamily="Roboto Condensed" Click="BtnPares_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnDrinks" Content="Drinks" FontWeight="Bold" HorizontalAlignment="Left" Margin="404,14,0,0" VerticalAlignment="Top" Width="60" Foreground="White" Height="41" FontFamily="Roboto Condensed" Click="BtnDrinks_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnDeserts" Content="Desserts" FontWeight="Bold" HorizontalAlignment="Left" Margin="469,14,0,0" VerticalAlignment="Top" Width="61" Foreground="White" Height="41" FontFamily="Roboto Condensed" Click="BtnDeserts_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnLomi" Content="Lomi" HorizontalAlignment="Left" Margin="77,14,0,0" VerticalAlignment="Top" Width="60" Foreground="White" Height="41" FontFamily="Roboto Condensed" FontWeight="Bold" Click="BtnLomi_Click" >
+            <Button.Background>
+                <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+            </Button.Background>
+        </Button>
+        <Grid HorizontalAlignment="Left" Height="41" Margin="535,14,0,0" VerticalAlignment="Top" Width="196" Background="White">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Roboto Condensed" FontWeight="Bold" FontSize="18">PRODUCT</TextBlock>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="303" Margin="535,60,0,0" VerticalAlignment="Top" Width="196" Background="White">
+            <Image x:Name="imgProduct" Stretch="Fill" HorizontalAlignment="Left" Height="176" Margin="10,10,0,0" VerticalAlignment="Top" Width="176" Source="/Photos/Kumpares Icon.jpg"/>
+            <Button x:Name="btnAddProduct" Content="ADD PRODUCT" HorizontalAlignment="Left" Margin="10,240,0,0" VerticalAlignment="Top" Width="176" Height="53" Foreground="White" FontFamily="Roboto Condensed" FontWeight="Bold" FontSize="20" Click="BtnAddProduct_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+                </Button.Background>
+            </Button>
+            <TextBox x:Name="txtQuantity" HorizontalAlignment="Left" Height="23" Margin="60,191,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="62" HorizontalContentAlignment="Center" TextChanged="TxtQuantity_TextChanged"/>
+            <Label Content="QTY" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top" FontFamily="Roboto Condensed" FontSize="20" Height="32" Width="45"/>
+            <Button x:Name="btnIncreaseQuantity" Content="+" HorizontalAlignment="Left" Margin="127,191,0,0" VerticalAlignment="Top" Width="27" Height="25" Foreground="White" FontFamily="Roboto Condensed" FontWeight="Bold" FontSize="14" Click="BtnIncreaseQuantity_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btnDecreaseQuantity" Content="-" HorizontalAlignment="Left" Margin="159,191,0,0" VerticalAlignment="Top" Width="27" Height="25" Foreground="White" FontFamily="Roboto Condensed" FontWeight="Bold" FontSize="15" Click="BtnDecreaseQuantity_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btnBestBarbeeQ" Content="" HorizontalAlignment="Left" Margin="-523,473,0,-336" VerticalAlignment="Top" Width="152" Height="166" Foreground="White" FontFamily="Roboto Condensed" FontWeight="Bold" FontSize="14" Background="#FFEB3449" Click="BtnBestBarbeeQ_Click">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="False">
+                                <Setter Property="Background" Value="Transparent" />
+                                <Setter Property="Opacity" Value="1.0" />
+                            </Trigger>
+                            <EventTrigger RoutedEvent="MouseLeave">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="1"></DoubleAnimation>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                            <EventTrigger RoutedEvent="MouseEnter">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0.2" To="0.2"></DoubleAnimation>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button x:Name="btnBestGotome" Content="" HorizontalAlignment="Left" Margin="-365,473,0,-336" VerticalAlignment="Top" Width="145" Height="166" Foreground="White" FontFamily="Roboto Condensed" FontWeight="Bold" FontSize="14" Background="#FFEE3C47" Click="BtnBestGotome_Click"/>
+            <Button x:Name="btnBestLomi" Content="" HorizontalAlignment="Right" Margin="-214,473,266,-336" VerticalAlignment="Top" Width="144" Height="166" Foreground="White" FontFamily="Roboto Condensed" FontWeight="Bold" FontSize="14" Background="#FFEE4347" Click="BtnBestLomi_Click"/>
+            <Button x:Name="btnBestPares" Content="" HorizontalAlignment="Left" Margin="-64,473,0,-336" VerticalAlignment="Top" Width="146" Height="166" Foreground="White" FontFamily="Roboto Condensed" FontWeight="Bold" FontSize="14" Background="#FFEF4845" Click="BtnBestPares_Click"/>
+            <Button x:Name="btnBestTapsi" Content="" HorizontalAlignment="Left" Margin="87,473,-35,-336" VerticalAlignment="Top" Width="144" Height="166" Foreground="White" FontFamily="Roboto Condensed" FontWeight="Bold" FontSize="14" Background="#FFF14E44" Click="BtnBestTapsi_Click"/>
+            <Button x:Name="btnBestDessert" Content="" Margin="237,473,-186,-336" VerticalAlignment="Top" Height="166" Foreground="White" FontFamily="Roboto Condensed" FontWeight="Bold" FontSize="14" Background="#FFF35444" Click="BtnBestDessert_Click" HorizontalAlignment="Left" Width="145"/>
+            <Button x:Name="btnBestDrink" Content="" HorizontalAlignment="Left" Margin="388,473,-336,-336" VerticalAlignment="Top" Width="144" Height="166" Foreground="White" FontFamily="Roboto Condensed" FontWeight="Bold" FontSize="14" Background="#FFF35A43" Click="BtnBestDrink_Click"/>
+            <Button x:Name="btnCheckOut" Content="CHECKOUT" HorizontalAlignment="Left" Margin="0,360,-128,-105" VerticalAlignment="Top" Width="324" Height="48" Foreground="White" FontFamily="Roboto Condensed" FontWeight="Bold" FontSize="28" VerticalContentAlignment="Center" BorderBrush="#FFEE3C48" Click="BtnCheckOut_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btnRemoveOrder" Content="REMOVE ORDER" HorizontalAlignment="Left" Margin="329,308,-336,-52" VerticalAlignment="Top" Width="203" Height="47" Foreground="White" FontFamily="Roboto Condensed" FontWeight="Bold" FontSize="20" VerticalContentAlignment="Center" BorderBrush="#FFEE3C48" Click="BtnRemoveOrder_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btnCancelTransaction" Content="CANCEL TRANSACTION" HorizontalAlignment="Left" Margin="329,360,-336,-105" VerticalAlignment="Top" Width="203" Height="48" Foreground="White" FontFamily="Roboto Condensed" FontWeight="Bold" FontSize="17" VerticalContentAlignment="Center" BorderBrush="#FFEE3C48" Click="BtnCancelTransaction_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+                </Button.Background>
+            </Button>
+            <CheckBox x:Name="chkBoxSpicy" Content="SPICY" IsChecked="false" IsThreeState="false" FontWeight="Bold" HorizontalAlignment="Left" Margin="114,219,0,0" VerticalAlignment="Top" Checked="ChkBoxSpicy_Checked" Unchecked="ChkBoxSpicy_Unchecked"/>
+            <CheckBox x:Name="chkBoxOriginal" IsChecked="true" Content="ORIGINAL" FontWeight="Bold" IsThreeState="false" HorizontalAlignment="Left" Margin="32,219,0,0" VerticalAlignment="Top" Checked="ChkBoxOriginal_Checked" Unchecked="ChkBoxOriginal_Unchecked"/>
+        </Grid>
+        <DataGrid x:Name="productListDataGrid" AutoGenerateColumns="True" HorizontalAlignment="Left" Margin="12,60,0,250" Width="518" FrozenColumnCount="7" HorizontalGridLinesBrush="#FF898989" VerticalGridLinesBrush="#FF898989" Background="White" FontWeight="Bold" AlternatingRowBackground="#FFCDCDCD" AlternationCount="1" BorderBrush="#FFCE1E16" RowBackground="#FFF0F0F0" IsReadOnly="True" SelectionChanged="ProductListDataGrid_SelectionChanged"/>
+        <Label x:Name="lblDate" Content="2019-11-19" HorizontalAlignment="Left" Margin="1138,647,0,0" VerticalAlignment="Top" Width="132" Foreground="White" FontSize="20"/>
+        <Grid x:Name="GridMenu" Width="196" HorizontalAlignment="Left" Margin="1074,203,0,194" RenderTransformOrigin="0.5,0.5" VerticalAlignment="Center">
+            <Grid.Background>
+                <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+            </Grid.Background>
+            <Grid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Grid.RenderTransform>
+            <StackPanel>
+                <Image Height="196" x:Name="imgCashier" Stretch="Fill" Margin="5,5,5,5" Source="photos/Woman Icon.jpg"/>
+                <Label x:Name="lblCashier" HorizontalContentAlignment="Center" Content="[Cashier Name]" Height="44" FontSize="23" Foreground="White" FontFamily="Roboto Lt" Margin="5,0,10,0" Width="181"/>
+                <Button x:Name="btnLogOut" Foreground="White" Height="63" Click="BtnLogOut_Click_1" Margin="5,5,5,5">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+                    </Button.Background>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source ="/Photos/Signout Icon.png" Width="35" Margin="10"/>
+                        <TextBlock Text=" Logout" Foreground="White" VerticalAlignment="Center" FontSize="20" Width="186" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+        </Grid>
+        <DataGrid x:Name="orderListDataGrid" AutoGenerateColumns="true" HorizontalAlignment="Left" Margin="736,60,0,357" Width="333" FrozenColumnCount="7" HorizontalGridLinesBrush="#FF898989" VerticalGridLinesBrush="#FF898989" Background="White" FontWeight="Bold" AlternatingRowBackground="#FFCDCDCD" AlternationCount="1" BorderBrush="#FFDD2A32" RowBackground="#FFF0F0F0" IsReadOnly="True" SelectionChanged="OrderListDataGrid_SelectionChanged"/>
+        <Grid HorizontalAlignment="Left" Height="41" Margin="736,14,0,0" VerticalAlignment="Top" Width="333" Background="White">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Roboto Condensed" FontWeight="Bold" FontSize="18"><Run Text="ORDER LIST"/></TextBlock>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="51" Margin="12,475,0,0" VerticalAlignment="Top" Width="1054">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="717*"/>
+                <ColumnDefinition Width="341*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.Background>
+                <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+            </Grid.Background>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Roboto Condensed" FontWeight="Bold" FontSize="28" Foreground="White" Margin="429,9,87,8"><Run Text="BEST SELLERS"/></TextBlock>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="48" Margin="535,368,0,0" VerticalAlignment="Top" Width="325" Background="#FF2B2929" Opacity="0.7">
+            <Label x:Name="lblTotal" Content="" HorizontalContentAlignment="Right" FontSize="40" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Height="51" Width="175" FontFamily="Roboto Condensed" Foreground="#FFF94B5E" Margin="150,-3,0,0"/>
+            <Label x:Name="lblTotalOnly" Content="TOTAL:" HorizontalContentAlignment="Left" FontSize="40" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Height="51" Width="175" FontFamily="Roboto Condensed" Foreground="#FFF94B5E" Margin="0,-3,0,0"/>
+        </Grid>
+        <Label x:Name="lblTime" Content="" HorizontalAlignment="Left" Margin="1138,673,0,0" VerticalAlignment="Top" Width="132" Foreground="White" FontSize="20"/>
+        <Button x:Name="btnALL" Content="All" HorizontalAlignment="Left" Margin="12,14,0,0" VerticalAlignment="Top" Width="60" Foreground="White" Height="41" FontFamily="Roboto Condensed" FontWeight="Bold" Click="BtnALL_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>

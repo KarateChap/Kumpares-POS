@@ -1,0 +1,336 @@
+﻿<Window x:Class="KumparesFinal.AdminInterface"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KumparesFinal"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        mc:Ignorable="d"
+        Title="AdminInterface" Height="720" Width="1280" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+    <Window.Resources>
+        <Storyboard x:Key="CloseMenu">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="GridMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="GridBackground">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="OpenMenu">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="GridMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="250"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="GridBackground">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Background>
+        <ImageBrush ImageSource="Photos/background.png"/>
+    </Window.Background>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonClose">
+            <BeginStoryboard x:Name="CloseMenu_BeginStoryboard" Storyboard="{StaticResource CloseMenu}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonOpen">
+            <BeginStoryboard Storyboard="{StaticResource OpenMenu}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="31*"/>
+        </Grid.RowDefinitions>
+        <Grid.Effect>
+            <DropShadowEffect BlurRadius="80" ShadowDepth="0.5" Color="#FFE2452D"/>
+        </Grid.Effect>
+        <Grid x:Name="GridBackground" Opacity="0" Grid.RowSpan="2">
+        </Grid>
+        <Button x:Name="ButtonOpen" HorizontalAlignment="Left" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" Width="40" Height="40" Padding="0" Foreground="{x:Null}" BorderThickness="0">
+            <Image Source="/Photos/Menu Icon.png" OpacityMask="White"></Image>
+        </Button>
+
+        <Grid HorizontalAlignment="Right" Height="212" Margin="0,26,803,0" VerticalAlignment="Top" Width="432">
+            <lvc:PieChart x:Name="barbeeQChart" LegendLocation="Bottom" Hoverable="True" Margin="10,36,181,0" Foreground="Black" Height="164" VerticalAlignment="Top">
+                <lvc:PieChart.Series>
+                    <lvc:PieSeries Title="Sample" Values="1" DataLabels="True"
+                               LabelPoint="{Binding PointLabel}"/>
+                </lvc:PieChart.Series>
+            </lvc:PieChart>
+            <DataGrid x:Name="barbeeQDataGrid" HorizontalAlignment="Left" Height="164" Margin="251,36,0,0" VerticalAlignment="Top" Width="171" Background="White" IsReadOnly="True"/>
+            <Label Content="BarbeeQ" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="31" Width="433" FontFamily="Roboto Condensed" Background="#FF292929" Margin="0,0,-1,0"/>
+            <Label x:Name="lblBarbeeQPrice" Content="Price" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="31" Width="432" FontFamily="Roboto Condensed"/>
+            <Grid Margin="438,0,-465,0"  HorizontalAlignment="Left" Width="391" Height="212" VerticalAlignment="Bottom">
+                <Grid.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFE23F2C" Offset="0"/>
+                        <GradientStop Color="#FFEF4845" Offset="1"/>
+                        <GradientStop Color="#FFF35A43" Offset="0.33"/>
+                        <GradientStop Color="#FFF35344" Offset="0.633"/>
+                    </LinearGradientBrush>
+                </Grid.Background>
+
+                <lvc:PieChart x:Name="gotomeChart" LegendLocation="Bottom" Hoverable="True" Margin="10,36,185,0" Foreground="Black" Height="164" VerticalAlignment="Top">
+                    <lvc:PieChart.Series>
+                        <lvc:PieSeries Title="Sample" Values="1" DataLabels="True"
+                            LabelPoint="{Binding PointLabel}"/>
+                    </lvc:PieChart.Series>
+                </lvc:PieChart>
+                <DataGrid x:Name="gotomeDataGrid" HorizontalAlignment="Left" Height="164" Margin="211,36,0,0" VerticalAlignment="Top" Width="170" Background="White" IsReadOnly="True"/>
+                <Label Content="Gotome" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="31" Width="391" FontFamily="Roboto Condensed" Background="#FF292929"/>
+                <Label x:Name="lblGotomePrice" Content="Price" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="31" Width="392" FontFamily="Roboto Condensed" Margin="0,0,-1,0"/>
+                <Grid HorizontalAlignment="Left" Height="212" Margin="-439,222,0,-222" VerticalAlignment="Top" Width="434">
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFE23F2C" Offset="0"/>
+                            <GradientStop Color="#FFEF4845" Offset="1"/>
+                            <GradientStop Color="#FFF35A43" Offset="0.33"/>
+                            <GradientStop Color="#FFF35344" Offset="0.633"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+
+                    <lvc:PieChart x:Name="lomiChart" LegendLocation="Bottom" Hoverable="True" Margin="5,36,186,0" Foreground="Black" Height="164" VerticalAlignment="Top">
+                        <lvc:PieChart.Series>
+                            <lvc:PieSeries Title="Sample" Values="1" DataLabels="True"
+                                LabelPoint="{Binding PointLabel}"/>
+                        </lvc:PieChart.Series>
+                    </lvc:PieChart>
+                    <DataGrid x:Name="lomiDataGrid" HorizontalAlignment="Left" Height="164" Margin="253,38,0,0" VerticalAlignment="Top" Width="171" Background="White" IsReadOnly="True"/>
+                    <Label Content="Lomi" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="31" Width="434" FontFamily="Roboto Condensed" Background="#FF292929"/>
+                    <Label x:Name="lblLomiPrice" Content="Price" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="31" Width="434" FontFamily="Roboto Condensed"/>
+
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="212" Margin="0,222,-28,-222" VerticalAlignment="Top" Width="392">
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFE23F2C" Offset="0"/>
+                            <GradientStop Color="#FFEF4845" Offset="1"/>
+                            <GradientStop Color="#FFF35A43" Offset="0.33"/>
+                            <GradientStop Color="#FFF35344" Offset="0.633"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+
+                    <lvc:PieChart x:Name="paresChart" LegendLocation="Bottom" Hoverable="True" Margin="5,36,184,0" Foreground="Black" Height="164" VerticalAlignment="Top">
+                        <lvc:PieChart.Series>
+                            <lvc:PieSeries Title="Sample" Values="1" DataLabels="True"
+                                LabelPoint="{Binding PointLabel}"/>
+                        </lvc:PieChart.Series>
+                    </lvc:PieChart>
+                    <DataGrid x:Name="paresDataGrid" HorizontalAlignment="Left" Height="164" Margin="213,36,0,0" VerticalAlignment="Top" Width="169" Background="White" IsReadOnly="True"/>
+                    <Label Content="Pares" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="31" Width="392" FontFamily="Roboto Condensed" Background="#FF292929"/>
+                    <Label x:Name="lblParesPrice" Content="Pares" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="31" Width="392" FontFamily="Roboto Condensed"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="212" Margin="-439,446,0,-446" VerticalAlignment="Top" Width="434">
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFE23F2C" Offset="0"/>
+                            <GradientStop Color="#FFEF4845" Offset="1"/>
+                            <GradientStop Color="#FFF35A43" Offset="0.33"/>
+                            <GradientStop Color="#FFF35344" Offset="0.633"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+
+                    <lvc:PieChart x:Name="tapsiChart" LegendLocation="Bottom" Hoverable="True" Margin="5,36,184,0" Foreground="Black" Height="164" VerticalAlignment="Top">
+                        <lvc:PieChart.Series>
+                            <lvc:PieSeries Title="Sample" Values="1" DataLabels="True"
+                                LabelPoint="{Binding PointLabel}"/>
+                        </lvc:PieChart.Series>
+                    </lvc:PieChart>
+                    <DataGrid x:Name="tapsiDataGrid" HorizontalAlignment="Left" Height="164" Margin="250,36,0,0" VerticalAlignment="Top" Width="174" Background="White" IsReadOnly="True"/>
+                    <Label Content="Tapsi" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="31" Width="434" FontFamily="Roboto Condensed" Background="#FF292929"/>
+                    <Label x:Name="lblTapsiPrice" Content="Price" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="31" Width="434" FontFamily="Roboto Condensed"/>
+
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="212" Margin="0,446,-1,-446" VerticalAlignment="Top" Width="392">
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFE23F2C" Offset="0"/>
+                            <GradientStop Color="#FFEF4845" Offset="1"/>
+                            <GradientStop Color="#FFF35A43" Offset="0.33"/>
+                            <GradientStop Color="#FFF35344" Offset="0.633"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+
+                    <lvc:PieChart x:Name="dessertChart" LegendLocation="Bottom" Hoverable="True" Margin="5,36,184,0" Foreground="Black" Height="164" VerticalAlignment="Top">
+                        <lvc:PieChart.Series>
+                            <lvc:PieSeries Title="Sample" Values="1" DataLabels="True"
+                                LabelPoint="{Binding PointLabel}"/>
+                        </lvc:PieChart.Series>
+                    </lvc:PieChart>
+                    <DataGrid x:Name="dessertDataGrid" HorizontalAlignment="Left" Height="164" Margin="213,36,0,0" VerticalAlignment="Top" Width="169" Background="White" IsReadOnly="True"/>
+                    <Label Content="Desserts" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="31" Width="392" FontFamily="Roboto Condensed" Background="#FF292929"/>
+                    <Label x:Name="lblDessertPrice" Content="Price" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="31" Width="392" FontFamily="Roboto Condensed"/>
+
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="212" Margin="397,446,-397,-446" VerticalAlignment="Top" Width="391">
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFE23F2C" Offset="0"/>
+                            <GradientStop Color="#FFEF4845" Offset="1"/>
+                            <GradientStop Color="#FFF35A43" Offset="0.33"/>
+                            <GradientStop Color="#FFF35344" Offset="0.633"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+
+                    <lvc:PieChart x:Name="drinkChart" LegendLocation="Bottom" Hoverable="True" Margin="5,36,172,0" Foreground="Black" Height="164" VerticalAlignment="Top" >
+                        <lvc:PieChart.Series>
+                            <lvc:PieSeries Title="Sample" Values="1" DataLabels="True"
+                                LabelPoint="{Binding PointLabel}"/>
+                        </lvc:PieChart.Series>
+                    </lvc:PieChart>
+                    <DataGrid x:Name="drinkDataGrid" HorizontalAlignment="Left" Height="164" Margin="214,36,0,0" VerticalAlignment="Top" Width="167" Background="White" IsReadOnly="True"/>
+                    <Label Content="Drinks" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="31" Width="414" FontFamily="Roboto Condensed" Background="#FF292929"/>
+                    <Label x:Name="lblDrinkPrice" Content="Price" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="31" Width="391" FontFamily="Roboto Condensed"/>
+
+                </Grid>
+
+                <Grid HorizontalAlignment="Left" Margin="397,0,-397,-222" Width="391">
+
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFE23F2C" Offset="0"/>
+                            <GradientStop Color="#FFEF4845" Offset="1"/>
+                            <GradientStop Color="#FFF35A43" Offset="0.33"/>
+                            <GradientStop Color="#FFF35344" Offset="0.633"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <Label Content="FROM:" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Foreground="White"/>
+                    <Label x:Name="lblIncome" Content="Sales Projection:" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="0,49,0,0" VerticalAlignment="Top" FontSize="20" Foreground="White" FontFamily="Roboto Condensed" Height="30" Width="391"/>
+                    <Label x:Name="lblDate" Content="TO DATE" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="0,34,0,0" VerticalAlignment="Top" FontSize="15" Foreground="White" FontFamily="Roboto Condensed" Height="28" Width="391"/>
+                    <DatePicker x:Name="dtpFrom" HorizontalAlignment="Left" Margin="45,10,0,0" VerticalAlignment="Top" CalendarClosed="DtpFrom_CalendarClosed"/>
+                    <Label Content="TO:" HorizontalAlignment="Left" Margin="147,9,0,0" VerticalAlignment="Top" Foreground="White"/>
+                    <DatePicker x:Name="dtpTo" HorizontalAlignment="Left" Margin="170,10,0,0" VerticalAlignment="Top" CalendarClosed="DtpTo_CalendarClosed"/>
+                    <Button x:Name="btnFilter" Content="FILTER" HorizontalAlignment="Left" FontSize="15" Margin="277,12,0,0" VerticalAlignment="Top" Width="72" Height="22" Foreground="White" FontFamily="Roboto Condensed" Click="BtnFilter_Click">
+                        <Button.Background>
+                            <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+                        </Button.Background>
+                    </Button>
+                    <lvc:PieChart x:Name="allChart" Series="{Binding SeriesCollection}" 
+                      LegendLocation="Right" InnerRadius="100" Margin="7,56,10,0" Foreground="Black">
+                        <lvc:PieChart.ChartLegend>
+                            <lvc:DefaultLegend BulletSize="20"/>
+                        </lvc:PieChart.ChartLegend>
+                        <lvc:PieChart.DataTooltip>
+                            <lvc:DefaultTooltip BulletSize="20"/>
+                        </lvc:PieChart.DataTooltip>
+                    </lvc:PieChart>
+                    <Label x:Name="lblTopProducts" Content="Top Products" HorizontalContentAlignment="Center" FontSize="20" Margin="135,79,0,322" Background="#FF292929" Foreground="White" FontFamily="Roboto Condensed"></Label>
+                    <TextBox x:Name="txtRank" HorizontalAlignment="Left" Height="24" Margin="65,402,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" Width="93" RenderTransformOrigin="0.5,0.5">
+                        <TextBox.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="-0.202"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBox.RenderTransform>
+                    </TextBox>
+                    <Label Content="RANK BY:" HorizontalAlignment="Left" Margin="7,402,0,0" VerticalAlignment="Top" Width="58" Foreground="White" FontFamily="Roboto Condensed"/>
+                    <Button x:Name="btnRank" Content="RANK" HorizontalAlignment="Left" Margin="163,402,0,0" VerticalAlignment="Top" Width="87" Height="24" Click="BtnRank_Click" Foreground="White">
+                        <Button.Background>
+                            <ImageBrush ImageSource="Photos/Gradient.png"/>
+                        </Button.Background>
+                    </Button>
+                    <Label Content="" HorizontalAlignment="Left" Margin="69,182,0,0" VerticalAlignment="Top" Height="126" Width="128">
+                        <Label.Background>
+                            <ImageBrush ImageSource="Photos/Kumpares Logo.png"/>
+                        </Label.Background>
+                    </Label>
+                </Grid>
+            </Grid>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFE23F2C" Offset="0"/>
+                    <GradientStop Color="#FFEF4845" Offset="1"/>
+                    <GradientStop Color="#FFF35A43" Offset="0.33"/>
+                    <GradientStop Color="#FFF35344" Offset="0.633"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+        </Grid>
+
+        <Grid x:Name="GridMenu" Width="250" HorizontalAlignment="Left" Margin="-250 0 0 0" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
+            <Grid.Background>
+                <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+            </Grid.Background>
+            <Grid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Grid.RenderTransform>
+            <Label Content="Kumpares Chicken Pork Beef Pares"  Margin="17,300,19,0" VerticalAlignment="Top" Height="44" FontSize="13" Foreground="White" FontFamily="Roboto Lt"/>
+            <StackPanel>
+                <Image Source ="/Photos/Kumpares Logo.png" Height="355" Width="180"/>
+                <ListView x:Name="MainListView" Foreground="#FF313131" FontFamily="Champagne &amp; Limousines" BorderBrush="{x:Null}" SelectionChanged="MainListView_SelectionChanged">
+                    <ListViewItem Height="60" Padding="0" Foreground="{x:Null}">
+                        <ListViewItem.Background>
+                            <ImageBrush ImageSource="/Photos/Gradient Backgroun.png"/>
+                        </ListViewItem.Background>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source ="/Photos/Dashboard Icon.png" Width="35" Margin="10"></Image>
+                            <TextBlock Text="   Dashboard" Foreground="White" VerticalAlignment="Center" FontSize="17" Width="186"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Padding="0">
+                        <ListViewItem.Background>
+                            <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+                        </ListViewItem.Background>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source ="/Photos/Food Icon.png" Width="35" Margin="10"></Image>
+                            <TextBlock Text="   Product Management" Foreground="White" VerticalAlignment="Center" FontSize="17" Width="186"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Padding="0">
+                        <ListViewItem.Background>
+                            <ImageBrush ImageSource="/Photos/Gradient Backgroun.png"/>
+                        </ListViewItem.Background>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source ="/Photos/People Icon.png" Width="35" Margin="10"></Image>
+                            <TextBlock Text="   Cashier Management" Foreground="White" VerticalAlignment="Center" FontSize="17" Width="186">
+                                <TextBlock.Background>
+                                    <ImageBrush/>
+                                </TextBlock.Background>
+                            </TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Padding="0">
+                        <ListViewItem.Background>
+                            <ImageBrush ImageSource="/Photos/Gradient Backgroun.png"/>
+                        </ListViewItem.Background>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source ="/Photos/History Icon.png" Width="35" Margin="10"></Image>
+                            <TextBlock Text="   Transaction History" Foreground="White" VerticalAlignment="Center" FontSize="17" Width="186"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Padding="0">
+                        <ListViewItem.Background>
+                            <ImageBrush ImageSource="/Photos/Gradient Backgroun.png"/>
+                        </ListViewItem.Background>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source ="/Photos/About Icon.png" Width="35" Margin="10"></Image>
+                            <TextBlock Text="   About The Developers" Foreground="White" VerticalAlignment="Center" FontSize="17" Width="186"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Padding="0" Foreground="{x:Null}">
+                        <ListViewItem.Background>
+                            <ImageBrush ImageSource="/Photos/Gradient Backgroun.png"/>
+                        </ListViewItem.Background>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source ="/Photos/Signout Icon.png" Width="35" Margin="10"></Image>
+                            <TextBlock Text="   Logout" Foreground="White" VerticalAlignment="Center" FontSize="17" Width="186"/>
+                        </StackPanel>
+                    </ListViewItem>
+                </ListView>
+            </StackPanel>
+            <Button x:Name="ButtonClose" HorizontalAlignment="Right" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" Width="30" Height="30" Padding="0" Foreground="{x:Null}" BorderThickness="0">
+                <Image Source="/Photos/Close Icon.png"></Image>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

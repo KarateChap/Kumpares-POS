@@ -1,0 +1,180 @@
+﻿<Window x:Class="KumparesFinal.CashierManagement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KumparesFinal"
+        mc:Ignorable="d"
+        Title="CashierManagement" Height="720" Width="1280" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+    <Window.Resources>
+        <Storyboard x:Key="CloseMenu">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="GridMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="GridBackground">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="OpenMenu">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="GridMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="250"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="GridBackground">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Background>
+        <ImageBrush ImageSource="Photos/background.png"/>
+    </Window.Background>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonClose">
+            <BeginStoryboard x:Name="CloseMenu_BeginStoryboard" Storyboard="{StaticResource CloseMenu}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonOpen">
+            <BeginStoryboard Storyboard="{StaticResource OpenMenu}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+        <Grid.Effect>
+            <DropShadowEffect BlurRadius="80" ShadowDepth="0.5" Color="#FFE2452D"/>
+        </Grid.Effect>
+        <Grid x:Name="GridBackground" Background="#55313131" Opacity="0">
+        </Grid>
+        <Button x:Name="ButtonOpen" HorizontalAlignment="Left" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" Width="40" Height="40" Padding="0" Foreground="{x:Null}" BorderThickness="0">
+            <Image Source="/Photos/Menu Icon.png"></Image>
+        </Button>
+        <DataGrid x:Name="cashierDataGrid" AutoGenerateColumns="True" HorizontalAlignment="Left" Height="624" Margin="42,58,0,0" VerticalAlignment="Top" Width="742" FrozenColumnCount="7" HorizontalGridLinesBrush="#FF898989" VerticalGridLinesBrush="#FF898989" Background="White" FontWeight="Bold" AlternatingRowBackground="#FFCDCDCD" AlternationCount="1" BorderBrush="Black" RowBackground="#FFF0F0F0" SelectionChanged="CashierDataGrid_SelectionChanged" IsReadOnly="True"/>
+        <Grid HorizontalAlignment="Left" Height="542" Margin="820,58,0,0" VerticalAlignment="Top" Width="384" Background="White" RenderTransformOrigin="0.503,0.529">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="271*"/>
+                <RowDefinition Height="260*"/>
+            </Grid.RowDefinitions>
+            <Label Content="Cashier ID" HorizontalAlignment="Left" Margin="20,84,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <TextBox x:Name="txtCashierID" HorizontalAlignment="Left" Height="23" Margin="20,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="147"/>
+            <Label Content="Username" HorizontalAlignment="Left" Margin="21,146,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="23" Margin="21,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148" TextChanged="checkTextBoxIfEmpty"/>
+            <Label Content="Password" HorizontalAlignment="Left" Margin="19,200,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="23" Margin="18,226,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="149" TextChanged="checkTextBoxIfEmpty"/>
+            <Label Content="First Name" HorizontalAlignment="Left" Margin="191,85,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Height="23" Margin="191,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178" TextChanged="checkTextBoxIfEmpty"/>
+            <Label Content="Last Name" HorizontalAlignment="Left" Margin="190,149,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="24" Margin="190,175,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="179" TextChanged="checkTextBoxIfEmpty"/>
+            <Label Content="Contact Number" HorizontalAlignment="Left" Margin="20,263,0,0" VerticalAlignment="Top" FontWeight="Bold" Grid.RowSpan="2"/>
+            <TextBox x:Name="txtContactNumber" HorizontalAlignment="Left" Height="23" Margin="20,17,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="149" TextChanged="checkTextBoxIfEmpty" Grid.Row="1"/>
+            <Label Content="Email Address" HorizontalAlignment="Left" Margin="19,46,0,0" VerticalAlignment="Top" FontWeight="Bold" RenderTransformOrigin="0.521,1.487" Grid.Row="1"/>
+            <TextBox x:Name="txtEmailAddress" HorizontalAlignment="Left" Height="23" Margin="19,72,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="148" TextChanged="checkTextBoxIfEmpty" Grid.Row="1"/>
+            <Grid HorizontalAlignment="Left" Height="39" Margin="0,16,0,0" VerticalAlignment="Top" Width="384">
+                <Grid.Background>
+                    <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+                </Grid.Background>
+                <Label Content="MODIFY CASHIER" Foreground="White" FontSize="18" Margin="127,4,79,6" FontFamily="Roboto Condensed"/>
+            </Grid>
+            <Button x:Name="btnCreateAccount" Content="Create New Cashier Account" HorizontalAlignment="Left" Margin="20,106,0,0" VerticalAlignment="Top" Width="344" Height="36" Foreground="White" FontWeight="Bold" Click="BtnCreateAccount_Click" IsEnabled="False" Grid.Row="1">
+                <Button.Background>
+                    <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btnUpdateAccount" Content="Update Selected Cashier Account" HorizontalAlignment="Left" Margin="20,158,0,0" VerticalAlignment="Top" Width="344" Height="36" Foreground="White" FontWeight="Bold" IsEnabled="False" Grid.Row="1" Click="BtnUpdateAccount_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btnDeleteAccount" Content="Delete Selected Cashier Account" HorizontalAlignment="Left" Margin="20,208,0,0" VerticalAlignment="Top" Width="344" Height="36" Foreground="White" FontWeight="Bold" IsEnabled="False" Grid.Row="1" Click="BtnDeleteAccount_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+                </Button.Background>
+            </Button>
+            <Image x:Name="imgCashier" Stretch="Fill" HorizontalAlignment="Left" Height="121" Margin="216,214,0,0" VerticalAlignment="Top" Width="124" Grid.RowSpan="2" Source="Photos/Woman Icon.jpg"/>
+            <Button x:Name="btnBrowse" Content="Browse Picture" HorizontalAlignment="Left" Margin="216,66,0,0" VerticalAlignment="Top" Width="124" Height="29" Foreground="White" Grid.Row="1" Click="BtnBrowse_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="Photos/Gradient.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Grid x:Name="GridMenu" Width="250" HorizontalAlignment="Left" Margin="-250 0 0 0" RenderTransformOrigin="0.5,0.5">
+            <Grid.Background>
+                <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+            </Grid.Background>
+            <Grid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Grid.RenderTransform>
+            <Label Content="Kumpares Chicken Pork Beef Pares"  Margin="17,300,19,0" VerticalAlignment="Top" Height="44" FontSize="13" Foreground="White" FontFamily="Roboto Lt"/>
+            <StackPanel>
+                <Image Source ="/Photos/Kumpares Logo.png" Height="355" Width="180"/>
+                <ListView x:Name="MainListView" Foreground="#FF313131" FontFamily="Champagne &amp; Limousines" BorderBrush="{x:Null}" SelectionChanged="MainListView_SelectionChanged">
+                    <ListViewItem Height="60" Padding="0" Foreground="{x:Null}">
+                        <ListViewItem.Background>
+                            <ImageBrush ImageSource="/Photos/Gradient Backgroun.png"/>
+                        </ListViewItem.Background>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source ="/Photos/Dashboard Icon.png" Width="35" Margin="10"></Image>
+                            <TextBlock Text="   Dashboard" Foreground="White" VerticalAlignment="Center" FontSize="17" Width="186"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Padding="0">
+                        <ListViewItem.Background>
+                            <ImageBrush ImageSource="Photos/Gradient Backgroun.png"/>
+                        </ListViewItem.Background>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source ="/Photos/Food Icon.png" Width="35" Margin="10"></Image>
+                            <TextBlock Text="   Product Management" Foreground="White" VerticalAlignment="Center" FontSize="17" Width="186"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Padding="0">
+                        <ListViewItem.Background>
+                            <ImageBrush ImageSource="/Photos/Gradient Backgroun.png"/>
+                        </ListViewItem.Background>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source ="/Photos/People Icon.png" Width="35" Margin="10"></Image>
+                            <TextBlock Text="   Cashier Management" Foreground="White" VerticalAlignment="Center" FontSize="17" Width="186">
+                                <TextBlock.Background>
+                                    <ImageBrush/>
+                                </TextBlock.Background>
+                            </TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Padding="0">
+                        <ListViewItem.Background>
+                            <ImageBrush ImageSource="/Photos/Gradient Backgroun.png"/>
+                        </ListViewItem.Background>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source ="/Photos/History Icon.png" Width="35" Margin="10"></Image>
+                            <TextBlock Text="   Transaction History" Foreground="White" VerticalAlignment="Center" FontSize="17" Width="186"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Padding="0">
+                        <ListViewItem.Background>
+                            <ImageBrush ImageSource="/Photos/Gradient Backgroun.png"/>
+                        </ListViewItem.Background>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source ="/Photos/About Icon.png" Width="35" Margin="10"></Image>
+                            <TextBlock Text="   About The Developers" Foreground="White" VerticalAlignment="Center" FontSize="17" Width="186"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Padding="0" Foreground="{x:Null}">
+                        <ListViewItem.Background>
+                            <ImageBrush ImageSource="/Photos/Gradient Backgroun.png"/>
+                        </ListViewItem.Background>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source ="/Photos/Signout Icon.png" Width="35" Margin="10"></Image>
+                            <TextBlock Text="   Logout" Foreground="White" VerticalAlignment="Center" FontSize="17" Width="186"/>
+                        </StackPanel>
+                    </ListViewItem>
+                </ListView>
+            </StackPanel>
+            <Button x:Name="ButtonClose" HorizontalAlignment="Right" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}" Width="30" Height="30" Padding="0" Foreground="{x:Null}" BorderThickness="0">
+                <Image Source="/Photos/Close Icon.png"></Image>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

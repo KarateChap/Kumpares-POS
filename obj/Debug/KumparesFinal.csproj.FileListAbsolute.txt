@@ -1,0 +1,216 @@
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\KumparesFinal.exe.config
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\KumparesFinal.exe
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\KumparesFinal.pdb
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignColors.dll
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MySql.Data.dll
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MySql.Web.dll
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\Google.Protobuf.dll
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\Renci.SshNet.dll
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignColors.pdb
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MySql.Data.xml
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MySql.Web.xml
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.csprojAssemblyReference.cache
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\AboutTheDevelopers.g.cs
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\AdminInterface.g.cs
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CashierInterface.g.cs
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CashierManagement.g.cs
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\MainWindow.g.cs
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\ProductManagement.g.cs
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\App.g.cs
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal_MarkupCompile.cache
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal_MarkupCompile.lref
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\AboutTheDevelopers.baml
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\AdminInterface.baml
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CashierInterface.baml
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CashierManagement.baml
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\MainWindow.baml
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\ProductManagement.baml
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.g.resources
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.Properties.Resources.resources
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.csproj.GenerateResource.cache
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.csproj.CoreCompileInputs.cache
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.csproj.CopyComplete
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.exe
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.pdb
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CheckOut.g.cs
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CheckOut.baml
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\PayBitcoin.g.cs
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Receipt.g.cs
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\PayBitcoin.baml
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Receipt.baml
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\PayEthereum.g.cs
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\PayEthereum.baml
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\TransactionHistory.g.cs
+C:\Users\gabriel\source\repos\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\TransactionHistory.baml
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\KumparesFinal.exe.config
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\KumparesFinal.exe
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\KumparesFinal.pdb
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignColors.dll
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\Google.Protobuf.dll
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\Renci.SshNet.dll
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MySql.Data.xml
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MySql.Web.xml
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.csprojAssemblyReference.cache
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\AboutTheDevelopers.g.cs
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\AdminInterface.g.cs
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CashierInterface.g.cs
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CashierManagement.g.cs
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CheckOut.g.cs
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\MainWindow.g.cs
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\PayBitcoin.g.cs
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\PayEthereum.g.cs
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\ProductManagement.g.cs
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Receipt.g.cs
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\TransactionHistory.g.cs
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\App.g.cs
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal_MarkupCompile.cache
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal_MarkupCompile.lref
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\AboutTheDevelopers.baml
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\AdminInterface.baml
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CashierInterface.baml
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CashierManagement.baml
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CheckOut.baml
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\MainWindow.baml
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\PayBitcoin.baml
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\PayEthereum.baml
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\ProductManagement.baml
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Receipt.baml
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\TransactionHistory.baml
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.g.resources
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.Properties.Resources.resources
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.csproj.GenerateResource.cache
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.csproj.CopyComplete
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.exe
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.pdb
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Customer.g.cs
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Customer.baml
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Confirmation.g.cs
+C:\Users\Gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Confirmation.baml
+C:\Users\gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.dll
+C:\Users\gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.pdb
+C:\Users\gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.xml
+C:\Users\gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\gabriel\Desktop\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.Wpf.xml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\KumparesFinal.exe.config
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\KumparesFinal.exe
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\KumparesFinal.pdb
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.dll
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.Wpf.dll
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignColors.dll
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\Google.Protobuf.dll
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\BouncyCastle.Crypto.dll
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\Renci.SshNet.dll
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.pdb
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.xml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.Wpf.pdb
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.Wpf.xml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignColors.pdb
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MySql.Data.xml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MySql.Web.xml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.csprojAssemblyReference.cache
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\AboutTheDevelopers.g.cs
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\AdminInterface.g.cs
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CashierInterface.g.cs
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CashierManagement.g.cs
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CheckOut.g.cs
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Confirmation.g.cs
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Customer.g.cs
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\MainWindow.g.cs
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\PayBitcoin.g.cs
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\PayEthereum.g.cs
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\ProductManagement.g.cs
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Receipt.g.cs
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\TransactionHistory.g.cs
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\App.g.cs
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal_MarkupCompile.cache
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal_MarkupCompile.lref
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\AboutTheDevelopers.baml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\AdminInterface.baml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CashierInterface.baml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CashierManagement.baml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CheckOut.baml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Confirmation.baml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Customer.baml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\MainWindow.baml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\PayBitcoin.baml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\PayEthereum.baml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\ProductManagement.baml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Receipt.baml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\TransactionHistory.baml
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.g.resources
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.Properties.Resources.resources
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.csproj.GenerateResource.cache
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.csproj.CoreCompileInputs.cache
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.csproj.CopyComplete
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.exe
+E:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.pdb
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\KumparesFinal.exe.config
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\KumparesFinal.exe
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\KumparesFinal.pdb
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.dll
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.Wpf.dll
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignColors.dll
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignThemes.Wpf.dll
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\Google.Protobuf.dll
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\BouncyCastle.Crypto.dll
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\Renci.SshNet.dll
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.pdb
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.xml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.Wpf.pdb
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\LiveCharts.Wpf.xml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignColors.pdb
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignThemes.Wpf.pdb
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MaterialDesignThemes.Wpf.xml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MySql.Data.xml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\bin\Debug\MySql.Web.xml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.csprojAssemblyReference.cache
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\AboutTheDevelopers.g.cs
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\AdminInterface.g.cs
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CashierInterface.g.cs
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CashierManagement.g.cs
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CheckOut.g.cs
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Confirmation.g.cs
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Customer.g.cs
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\MainWindow.g.cs
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\PayBitcoin.g.cs
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\PayEthereum.g.cs
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\ProductManagement.g.cs
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Receipt.g.cs
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\TransactionHistory.g.cs
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\App.g.cs
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal_MarkupCompile.cache
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal_MarkupCompile.lref
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\AboutTheDevelopers.baml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\AdminInterface.baml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CashierInterface.baml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CashierManagement.baml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\CheckOut.baml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Confirmation.baml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Customer.baml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\MainWindow.baml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\PayBitcoin.baml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\PayEthereum.baml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\ProductManagement.baml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\Receipt.baml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\TransactionHistory.baml
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.g.resources
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.Properties.Resources.resources
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.csproj.GenerateResource.cache
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.csproj.CoreCompileInputs.cache
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.csproj.CopyComplete
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.exe
+H:\College-Files\BSIT\SECOND-YEAR\First Sem\Object Oriented Programming\KUMPARES POS SYSTEM\Codes and DataBase\KumparesFinal\KumparesFinal\KumparesFinal\KumparesFinal\obj\Debug\KumparesFinal.pdb
